@@ -1,0 +1,1566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navcontainer{
+    height:10vh;
+    width: 100%;
+    background-color:white;
+}
+.navbar{
+    height: 7vh;
+    width: 25%;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.h4{
+    font-family:sans-serif;
+    font-weight:500;
+    color: rgb(25, 25, 26);
+    font-size: large;
+}
+.aboutcontainer{
+    height:200vh;
+    width: 100%;
+    background-color: rgb(179, 174, 174);
+}
+.aboutus{
+    position: relative;
+    border-radius: 10px;
+    top: 50px;
+    left: 70px;
+    height:185vh;
+    width: 65%;
+    background-color: white;
+}
+.h3{
+    font-family:sans-serif;
+    font-weight:500;
+    color: rgb(25, 25, 26);
+    font-size: larger;
+    position: relative;
+    top:40px ;
+    left: 30px;
+}
+.logo{
+    background-color: rgb(163, 158, 158);
+    color: white;
+    border: none;
+    position: relative;
+    height: 8vh;
+    width: 17%;
+    top: 50px;
+    left: 40px;
+    border-radius: 8px;
+}
+.h5{
+    font-size: larger;
+    font-weight: 500;
+}
+h6{
+    font-family: sans-serif;
+    font-size:small;
+    font-weight: 600;
+    position: relative;
+    left: 40px;
+    top: 70px;
+}
+form{
+   position: relative;
+   left: 40px;
+   top: 100px;
+}
+#Company{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 30%;
+    position: relative;
+    left: 100px;
+    top: -25px;
+}
+h1{
+    font-weight: 500;
+    font-size: small;
+}
+#Address{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 30%;
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+h2{
+    font-weight: 500;
+    font-size: small;
+    position: relative;
+    top: -25px;
+}
+#Zip{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 30%;
+    position: relative;
+    left: 100px;
+    top: -75px;
+}
+h3{
+    font-weight: 500;
+    font-size: small;
+    position: relative;
+    top: -50px;
+}
+#City{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 30%;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+h4{
+    font-weight: 500;
+    font-size: small;
+    position: relative;
+    top: -75px;
+}
+#Country{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 30%;
+    position: relative;
+    left: 100px;
+    top: -125px;
+}
+h5{
+    font-weight: 500;
+    font-size: small;
+    position: relative;
+    top: -95px;
+}
+.form2{
+    height: 50vh;
+    width: 50%;
+    position: relative;
+    left: 400px;
+    top: -380px;
+}
+#Company1{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    position: relative;
+    left: 100px;
+    top: -25px;
+}
+#Address1{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+#Zip1{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    position: relative;
+    left: 100px;
+    top: -75px;
+}
+#City1{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+#Country1{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    position: relative;
+    left: 100px;
+    top: -125px;
+}
+.font{
+    position: relative;
+    font-weight: bold;
+    left: -360px;
+}
+.underline{
+    position: relative;
+    left: -246px;
+    top: -18px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#Invoice{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    position: relative;
+    left: -300px;
+    top:-77px;
+}
+.invoice{
+    font-weight: 500;
+    font-size: small;
+    position: relative;
+    top: -50px;
+    left: -400px;
+}
+.Issued{
+    font-weight: 500;
+    font-size: small;
+    position: relative;
+    top: -78px;
+    left: -400px;
+}
+.due{
+    font-weight: 500;
+    font-size: small;
+    position: relative;
+    top: -105px;
+    left: -400px;
+}
+#issued{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    position: relative;
+    left: -300px;
+    top:-102px;
+}
+#due{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    position: relative;
+    left: -300px;
+    top:-127px;
+}
+#itemname{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 90%;
+    position: relative;
+    left: -400px;
+    top:-90px;
+}
+.itemname{
+    font-weight: 500;
+    color: gray;
+    font-size: large;
+    position: relative;
+    top: -110px;
+    left: -380px;
+}
+#Qty{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 20%;
+    position: relative;
+    left: 0px;
+    top:-169px;
+}
+.Qty{
+    font-weight: 500;
+    color: gray;
+    font-size: large;
+    position: relative;
+    top: -190px;
+    left: 25px;
+}
+#Rate{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 30%;
+    position: relative;
+    left: 94px;
+    top:-248px;
+}
+.Rate{
+    font-weight: 500;
+    font-size: large;
+    color: gray;
+    position: relative;
+    top: -270px;
+    left: 125px;
+}
+#linetotal{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 30%;
+    position: relative;
+    left: 230px;
+    top:-327px;
+}
+.linetotal{
+    font-weight: 500;
+    font-size: large;
+    color: gray;
+    position: relative;
+    top: -350px;
+    left: 245px;
+}
+.btn{
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    height: 5vh;
+    width: 8%;
+    position: relative;
+    top:-395px;
+    left:370px;
+}
+#empty{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 57px;
+    width: 90%;
+    position: relative;
+    left: -440px;
+    top:-327px;
+}
+.line{
+    background-color:#dee2e6!important;
+    height: 0.1vh;
+    width: 180%;
+    position: relative;
+    top:-330px ;
+    left:-400px;
+}
+#notes{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 57px;
+    width: 100%;
+    position: relative;
+    left: -400px;
+    top:-280px;
+}
+#terms{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 57px;
+    width: 100%;
+    position: relative;
+    left: -400px;
+    top:-280px;
+}
+.notes{
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: -285px;
+    left: -400px;
+}
+.terms{
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: -280px;
+    left: -400px;
+}
+.Discount{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    top: -440px;
+    left: 80px;
+}
+.Tax{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    top: -455px;
+    left: 200px;
+}
+.Shipping{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    top: -475px;
+    left: 290px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: -540px;
+    left: 80px;
+    
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .switch1 {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: -540px;
+    left: 120px;
+    
+  }
+  
+  .switch1 input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .switch2 {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: -540px;
+    left: 160px;
+    
+  }
+  
+  .switch2 input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .EUR{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    top: -460px;
+    left: 280px;
+}
+.TotalAmount{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    top: -400px;
+    left: 80px;
+}
+.AMD{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    top: -420px;
+    left: 290px;
+}
+.line1{
+    background-color:#dee2e6!important;
+    height: 0.1vh;
+    width: 65%;
+    position: relative;
+    top:-430px ;
+    left:80px;
+}
+
+
+.formcontainer{
+    position: relative;
+    border-radius: 10px;
+    top: -1160px;
+    left: 980px;
+    height:185vh;
+    width: 25%;
+    background-color: white;
+}
+#newvoice{
+    border: 1px solid gainsboro;
+    background-color:white;
+    border-radius: 8px;
+    height: 57px;
+    width: 88%;
+    position: relative;
+    left: 20px;
+    top:20px;
+}
+.newvoice{ 
+    font-weight:500;
+    font-size: 1.3rem;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    z-index: 5;
+}
+#savevoice{
+    border: 1px solid gainsboro;
+    background-color:white;
+    border-radius: 8px;
+    height: 57px;
+    width: 88%;
+    position: relative;
+    left: 20px;
+    top:0px;
+    background-color: orangered;
+}
+.savevoice{
+    font-weight:500;
+    font-size: 1.3rem;
+    color: white;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    z-index: 5;
+}
+#pdf{
+    border: 1px solid gainsboro;
+    background-color:white;
+    border-radius: 8px;
+    height: 57px;
+    width: 88%;
+    position: relative;
+    left: 20px;
+    top:-20px;
+    background-color: darkblue;
+}
+.pdf{
+    color: white;
+    font-weight:500;
+    font-size: 1.3rem;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    z-index: 5;
+}
+#export{
+    border: 1px solid gainsboro;
+    background-color:darkblue;
+    border-radius: 8px;
+    height: 40px;
+    width: 40%;
+    position: relative;
+    left: 25px;
+    top:-35px;
+}
+.export{
+    font-weight: 500;
+    font-size: small;
+    color: white;
+    position: relative;
+    top: -8px;
+    left: 70px;
+    z-index: 100;
+}
+#import{
+    border: 1px solid gainsboro;
+    background-color:darkblue;
+    border-radius: 8px;
+    height: 40px;
+    width: 40%;
+    position: relative;
+    left: 180px;
+    top:-108px;
+}
+.import{
+    font-weight: 500;
+    font-size: small;
+    color: white;
+    position: relative;
+    top: -80px;
+    left: 225px;
+    z-index: 1;
+}
+#Missing{
+    border: 1px solid gainsboro;
+    background-color:white;
+    border-radius: 8px;
+    height: 40px;
+    width: 86%;
+    position: relative;
+    left: 25px;
+    top:-125px;
+}
+.Missing{
+    font-weight:500;
+    font-size: 1rem;
+    position: relative;
+    top: -95px;
+    text-align: center;
+    z-index: 1;
+}
+#Currency{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 87%;
+    position: relative;
+    left: 20px;
+    top:-140px;
+}
+.Currency{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.712);
+    font-size: large;
+    position: relative;
+    top: -110px;
+    left: 20px;
+}
+.line2{
+    background-color:#dee2e6!important;
+    height:0.2vh;
+    width: 89%;
+    position: relative;
+    top:-90px ;
+    left:20px;
+}
+#savedvoice{
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 87%;
+    position: relative;
+    left: 20px;
+    top:-40px;
+}
+.savedvoice{
+    font-weight: 500;
+    color: rgb(26, 24, 24);
+    font-size: large;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+.cardcontainer{
+    height:140vh;
+    width: 100%;
+    background-color:rgb(179, 174, 174); 
+}
+.tablecontainer{
+    position: relative;
+    border-radius: 10px;
+    top: 0px;
+    left:50px;
+    height:135vh;
+    width: 93%;
+    background-color: white;
+}
+.paragraph{
+    position: relative;
+    border-radius: 10px;
+    top: 40px;
+    left:280px;
+    height:130vh;
+    width: 55%;
+    font-size: 1rem;
+   
+}
+.paragraph h6{
+    font-size: medium;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 1px;
+}
+.paragraph p{
+    text-transform: capitalize;
+}
+.p1{
+    position: relative;
+    top: -27px;
+    left: 240px;
+}
+.p2{
+    position: relative;
+    top: -43px;
+    left: 260px; 
+}
+i{
+    position: relative;
+    top: -60px;
+    left: 1200px;
+}
+.fa-twitter{
+    height: 10%;
+    width: 3%;
+    font-size:x-large;
+    font-weight:900;
+    color: grey;
+}
+.fa-github{
+    height: 0%;
+    width: 0%;
+    font-size:x-large;
+    font-weight:900;
+    color: grey;
+}
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:900px) {
+    .navbar{
+        height: 7vh;
+        width: 100%;
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+    .aboutcontainer{
+        height:510vh;
+        width: 100%;
+        background-color: gray;
+    }
+    .aboutus{
+        height: 382vh;
+        width: 88%;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .h3{
+        font-family:sans-serif;
+        font-weight:500;
+        color: rgb(25, 25, 26);
+        font-size: larger;
+        position: relative;
+        top:25px ;
+        left: 20px;
+    }
+    .logo{
+        background-color: rgb(160, 157, 157);
+        color: white;
+        border: none;
+        position: relative;
+        height: 9vh;
+        width: 50%;
+        top: 35px;
+        left: 20px;
+        border-radius: 8px;
+    }
+    .h5{
+        font-size: larger;
+        font-weight: 500;
+    }
+    h6{
+        font-family: sans-serif;
+        font-size:small;
+        font-weight: 600;
+        position: relative;
+        left: 20px;
+        top: 60px;
+    }
+    #Company{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 85%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    h1{
+        font-weight: 500;
+        font-size: small;
+        position: relative;
+        top: -30px;
+        left: -20px;
+    }
+    #Address{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 85%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    h2{
+        font-weight: 500;
+        font-size: small;
+        position: relative;
+        top: -30px;
+        left: -20px;
+    }
+    #Zip{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 85%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    h3{
+        font-weight: 500;
+        font-size: small;
+        position: relative;
+        top: -30px;
+        left: -20px;
+    }
+    #City{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 85%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    h4{
+        font-weight: 500;
+        font-size: small;
+        position: relative;
+        top: -30px;
+        left: -20px;
+    }
+    #Country{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 85%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    h5{
+        font-weight: 500;
+        font-size: small;
+        position: relative;
+        top: -30px;
+        left: -20px;
+    }
+    .form2{
+        height: 50vh;
+        width: 50%;
+        position: relative;
+        left: 0px;
+        top: 120px;
+    }
+    #Company1{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    #Address1{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    #Zip1{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    #City1{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    #Country1{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top: -25px;
+    }
+    .font{
+        position: relative;
+        font-weight: bold;
+        left: 15px;
+        top: -390px;
+    }
+    .underline{
+        position: relative;
+        left: 130px;
+        top: -408px;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    #Invoice{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:-25px;
+    }
+    .invoice{
+        font-weight: 500;
+        font-size: small;
+        position: relative;
+        top: -30px;
+        left: -20px;
+    }
+    .Issued{
+        font-weight: 500;
+        font-size: small;
+        position: relative;
+        top: -30px;
+        left: -20px;
+    }
+    .due{
+        font-weight: 500;
+        font-size: small;
+        position: relative;
+        top: -30px;
+        left: -20px;
+    }
+    #issued{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:-25px;
+    }
+    #due{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:-25px;
+    }
+    #itemname{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:0px;
+    }
+    .itemname{
+        display: none;
+        font-weight: 500;
+        color: gray;
+        font-size: large;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #Qty{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:-10px;
+    }
+    .Qty{
+        display:none;
+        font-weight: 500;
+        color: gray;
+        font-size: large;
+        position: relative;
+        top: 0px;
+        left:0px;
+    }
+    #Rate{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:-20px;
+    }
+    .Rate{
+        display: none;
+        font-weight: 500;
+        font-size: large;
+        color: gray;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #linetotal{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:-30px;
+    }
+    .linetotal{
+        display: none;
+        font-weight: 500;
+        font-size: large;
+        color: gray;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .btn{
+        background-color: rgb(66, 66, 190);
+        border: none;
+        color: white;
+        border-radius: 50%;
+        height: 8vh;
+        width: 27%;
+        position: relative;
+        top:15px;
+        left:-20px;
+    }
+    #empty{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 50px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:-84px;
+    }
+    .line{
+        background-color:#dee2e6!important;
+        height: 0.2vh;
+        width: 170%;
+        position: relative;
+        top:-45px ;
+        left:-20px;
+    }
+    #notes{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 57px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:0px;
+    }
+    #terms{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 57px;
+        width: 170%;
+        position: relative;
+        left: -20px;
+        top:0px;
+    }
+    .notes{
+        font-weight: 500;
+        font-size: 16px;
+        position: relative;
+        top: 0px;
+        left: -20px;
+    }
+    .terms{
+        font-weight: 500;
+        font-size: 16px;
+        position: relative;
+        top: 0px;
+        left: -20px;
+    }
+    .Discount{
+        font-weight: 500;
+        font-size: 1rem;
+        position: relative;
+        top: 95px;
+        left: -20px;
+    }
+    .Tax{
+        font-weight: 500;
+        font-size: 1rem;
+        position: relative;
+        top: 77px;
+        left: 80px;
+    }
+    .Shipping{
+        font-weight: 500;
+        font-size: 1rem;
+        position: relative;
+        top: 60px;
+        left: 150px;
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        top: 0px;
+        left: -20px;
+        
+      }
+      
+      .switch input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      .switch1 {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        top: 0px;
+        left:0px;
+        
+      }
+      
+      .switch1 input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      .switch2 {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        top: -35px;
+        left:150px;
+        
+      }
+      
+      .switch2 input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top:0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color:white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+      
+      input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+      }
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+      
+      
+      .slider.round {
+        border-radius: 34px;
+      }
+      
+      .slider.round:before {
+        border-radius: 50%;
+      }
+      .EUR{
+        font-weight: 500;
+        font-size: 1rem;
+        position: relative;
+        top: 78px;
+        left: 150px;
+    }
+    .TotalAmount{
+        font-weight: 500;
+        font-size: 1rem;
+        position: relative;
+        top: 120px;
+        left: -20px;
+    }
+    .AMD{
+        font-weight: 500;
+        font-size: 1rem;
+        position: relative;
+        top: 100px;
+        left: 150px;
+    }
+    .line1{
+        background-color:#dee2e6!important;
+        height: 0.2vh;
+        width: 170%;
+        position: relative;
+        top:100px ;
+        left:-20px;
+    }
+    
+    
+    .formcontainer{
+        position: relative;
+        border-radius: 10px;
+        top: 30px;
+        left: 20px;
+        height:120vh;
+        width: 88%;
+        background-color: white;
+    }
+    #newvoice{
+        border: 1px solid gainsboro;
+        background-color:white;
+        border-radius: 8px;
+        height: 57px;
+        width: 88%;
+        position: relative;
+        left: 20px;
+        top:20px;
+    }
+    .newvoice{ 
+        font-weight:500;
+        font-size: 1.3rem;
+        position: relative;
+        top: 60px;
+        text-align: center;
+        z-index: 5;
+    }
+    #savevoice{
+        border: 1px solid gainsboro;
+        background-color:white;
+        border-radius: 8px;
+        height: 57px;
+        width: 88%;
+        position: relative;
+        left: 20px;
+        top:0px;
+        background-color: orangered;
+    }
+    .savevoice{
+        font-weight:500;
+        font-size: 1.3rem;
+        color: white;
+        position: relative;
+        top: 40px;
+        text-align: center;
+        z-index: 5;
+    }
+    #pdf{
+        border: 1px solid gainsboro;
+        background-color:white;
+        border-radius: 8px;
+        height: 57px;
+        width: 88%;
+        position: relative;
+        left: 20px;
+        top:-20px;
+        background-color: darkblue;
+    }
+    .pdf{
+        color: white;
+        font-weight:500;
+        font-size: 1.3rem;
+        position: relative;
+        top: 20px;
+        text-align: center;
+        z-index: 5;
+    }
+    #export{
+        border: 1px solid gainsboro;
+        background-color:darkblue;
+        border-radius: 8px;
+        height: 40px;
+        width: 40%;
+        position: relative;
+        left: 25px;
+        top:-35px;
+    }
+    .export{
+        font-weight: 500;
+        font-size: small;
+        color: white;
+        position: relative;
+        top: -8px;
+        left: 70px;
+        z-index: 100;
+    }
+    #import{
+        border: 1px solid gainsboro;
+        background-color:darkblue;
+        border-radius: 8px;
+        height: 40px;
+        width: 40%;
+        position: relative;
+        left: 150px;
+        top:-108px;
+    }
+    .import{
+        font-weight: 500;
+        font-size: small;
+        color: white;
+        position: relative;
+        top: -80px;
+        left: 190px;
+        z-index: 1;
+    }
+    #Missing{
+        border: 1px solid gainsboro;
+        background-color:white;
+        border-radius: 8px;
+        height: 40px;
+        width: 86%;
+        position: relative;
+        left: 25px;
+        top:-125px;
+    }
+    .Missing{
+        font-weight:500;
+        font-size: 1rem;
+        position: relative;
+        top: -95px;
+        text-align: center;
+        z-index: 1;
+    }
+    #Currency{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 87%;
+        position: relative;
+        left: 20px;
+        top:-140px;
+    }
+    .Currency{
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.712);
+        font-size: large;
+        position: relative;
+        top: -110px;
+        left: 20px;
+    }
+    .line2{
+        background-color:#dee2e6!important;
+        height:0.2vh;
+        width: 89%;
+        position: relative;
+        top:-90px ;
+        left:20px;
+    }
+    #savedvoice{
+        border: 1px solid gainsboro;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        height: 40px;
+        width: 87%;
+        position: relative;
+        left: 20px;
+        top:-40px;
+    }
+    .savedvoice{
+        font-weight: 500;
+        color: rgb(26, 24, 24);
+        font-size: large;
+        position: relative;
+        top: -50px;
+        left: 20px;
+    }
+    .cardcontainer{
+        height:310vh;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        background-color:rgb(179, 174, 174); 
+    }
+    .tablecontainer{
+        position: relative;
+        border-radius: 10px;
+        top: 0px;
+        left:20px;
+        height:305vh;
+        width: 86%;
+        background-color: white;
+    }
+    .paragraph{
+        font-weight: lighter;
+        position: relative;
+        border-radius: 10px;
+        top: 40px;
+        left:10px;
+        height:130vh;
+        width: 85%;
+        font-size: 1rem;
+       
+    }
+    .paragraph h6{
+        font-size: medium;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        letter-spacing: 1px;
+    }
+    .paragraph p{
+        text-transform: capitalize;
+    }
+    
+    .p1{
+        position: relative;
+        top: 0px;
+        display: none;
+        left: 240px;
+    }
+    .p2{
+        position: relative;
+        font-size: small;
+        top: 10px;
+        left: 60px; 
+    }
+    i{
+        position: relative;
+        top: 15px;
+        left: 80px;
+    }
+    .fa-twitter{
+        height: 10%;
+        width: 12%;
+        font-size:x-large;
+        font-weight:900;
+        color: grey;
+    }
+    .fa-github{
+        height: 0%;
+        width: 0%;
+        font-size:x-large;
+        font-weight:900;
+        color: grey;
+    }
+    
+}
